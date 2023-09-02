@@ -10,11 +10,9 @@ const FormComponent = (props) => {
     const [amount,setamount] = useState(0)
     const [formVaild,setFormvaild] = useState(false) // สร้าง state จะเก็บสถานะ การเก็บแบบฟอร์ม
     
-    
 
     const InputTitle = (event) =>{
         setTitle(event.target.value) //ความหมายคือ ส่งข้อมูลมาเก็บใน state Title
-
         // console.log(event.target.value) //คำสั่ง event.target.value คือ คำสั่งตรวจสอบว่าเราพิมอะไรไปบ้างใน textbox
     }
     const Inputamount = (event) =>{

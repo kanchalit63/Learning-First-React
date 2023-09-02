@@ -3,6 +3,8 @@ import { useContext } from "react";
 import './ReportComponent.css'
 
 const ReportComponent = ()=>{
+
+    
     const {income,expense} = useContext (DataContext)
     
     return(
